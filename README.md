@@ -8,6 +8,8 @@ We will use a hidden Markov model to detect C/G rich regions in a DNA sequence. 
 
 You need to implement two functions. HMM.logprob() calculates the probability of a particular sequence of states and characters. HMM.viterbi() uses the Viterbi algorithm to calculate the most likely sequence of states given a sequence of DNA characters. In other words, logprob() computes log(P(sequence, states)) and viterbi() computes argmax_states P(sequence, states).
 
+The input file is "small.txt" which is a single sequence of letters A, C, T, G
+
 Run the code using command:
 ```
 python a3_template.py "small.txt" 
